@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
+import MotoXRLogo from '../assets/MotoXR_logo.svg';
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import CartModal from '../pages/shop/CartModal';
@@ -61,15 +63,15 @@ const Navbar = () => {
             <nav className='max-w-screen-2xl mx-auto px-4 flex justify-between items-center'>
                 <ul className='nav__links'>
                     <li className='link'><Link to="/">Home</Link></li>
+                    <li className='link'><Link to="/">XR-Fit</Link></li>
                     <li className='link'><Link to="/shop">Shop</Link></li>
-                    <li className='link'><Link to="/">Pages</Link></li>
                     <li className='link'><Link to="/contact">Contact</Link></li>
                 </ul>
 
                 {/* logo */}
                 <div className='nav__logo'>
-                    <Link to="/">Lebaba<span>.</span></Link>
-                </div>
+                    <Link to='/'><img src={MotoXRLogo} alt="MotoXR Logo" /></Link>
+                 </div>
 
                 {/* nav icons */}
                 <div className='nav__icons relative'>

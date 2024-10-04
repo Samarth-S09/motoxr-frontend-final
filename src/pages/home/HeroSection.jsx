@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 import card1 from "../../assets/card-1.png"
@@ -8,20 +9,20 @@ const cards = [
     {
         id: 1,
         image: card1,
-        trend: '2024 Trend',
-        title: 'Womens Shirt'
+        trend: '',
+        title: 'Full-Face Helmets'
     },
     {
         id: 2,
         image: card2,
-        trend: '2024 Trend',
-        title: 'Womens Dresses'
+        trend: '',
+        title: 'Off-Road Helmets'
     },
     {
         id: 3,
         image: card3,
-        trend: '2024 Trend',
-        title: 'Womens Casuals'
+        trend: '',
+        title: 'Open-Face Helmets'
     },
 ]
 

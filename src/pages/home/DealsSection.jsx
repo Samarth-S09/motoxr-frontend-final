@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import dealsImg from "../../assets/deals.png"
 const DealsSection = () => {
@@ -8,9 +9,9 @@ const DealsSection = () => {
         </div>
 
         <div className='deals__content'>
-            <h5>Get Up To 20% Discount</h5>
-            <h4>Deals Of This Month</h4>
-            <p>Our Women's Fashion Deals of the Month are here to make your style dreams a reality without breaking the bank. Discover a curated collection of exquisite clothing, accessories, and footwear, all handpicked to elevate your wardrobe.</p>
+            <h5>GetGear Up for Less!</h5>
+            <h4>Deal of the Month</h4>
+            <p>Do not miss out on our exclusive offer this month! Get up to 25% off on our best-selling helmets and jackets. Limited time only—grab your gear while the deal lasts!</p>
             <div className='deals__countdown flex-wrap'>
                 <div className='deals__countdown__card'>
                     <h4>14</h4>

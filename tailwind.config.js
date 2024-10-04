@@ -12,11 +12,13 @@ export default {
         'custom-900': '900px', 
       },
       colors: {
-        'primary': '#ed3849',
-        'primary-dark': "#d23141",
-        'primary-light': '#f4e5ec',
-        'text-dark': '#0f172a',
-        'text-light': '#64748b',
+        'primary': '#42ed18',
+        'primary2': '#2e9e12',
+        'primary-dark': "#1f600f",
+        'primary-light': '#daf4ce',
+        'grey-color': '#aaaaaa',
+        'text-dark': '#0a0a0a',
+        'text-light': '#506e52',
         'extra-light': '#f8fafc'
       }
     },

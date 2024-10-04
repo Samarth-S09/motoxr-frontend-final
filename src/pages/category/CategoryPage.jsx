@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
@@ -22,7 +23,7 @@ const CategoryPage = () => {
     <>
     <section className='section__container bg-primary-light'>
             <h2 className='section__header capitalize'>{categoryName}</h2>
-            <p className='section__subheader'>Browse a diverse range of categories, from chic dresses to versatile accessories. Elevate your style today!</p>
+            <p className='section__subheader'>Discover a Wide Selection of Premium Motorcycle Gear – Perfectly Crafted for Every Ride and Adventure!</p>
     </section>
 
     {/* products card */}

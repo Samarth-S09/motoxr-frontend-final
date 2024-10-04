@@ -7,6 +7,7 @@ import { addToCart } from '../../../redux/features/cart/cartSlice';
 import ReviewsCard from '../reviews/ReviewsCard';
 
 const SingleProduct = () => {
+    const arLink = "https://samarths.8thwall.app/motoxr/";
     const {id} = useParams();
 
     const dispatch =  useDispatch();
@@ -71,6 +72,14 @@ const SingleProduct = () => {
                         className='mt-6 px-6 py-3 bg-primary text-white rounded-md'>
                             Add to Cart
                         </button>
+
+                        <a href={arLink} target="_blank" rel="noopener noreferrer">
+                            <button className='mt-6 px-6 py-3 bg-red-600 text-white rounded-md'>
+                                Try AR
+                            </button>
+                         </a>
+
+
                     </div>
                 </div>
             </section>

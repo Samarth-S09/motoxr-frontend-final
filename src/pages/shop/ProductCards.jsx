@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Link } from 'react-router-dom'
 import RatingStars from '../../components/RatingStars'
@@ -28,7 +29,7 @@ const ProductCards = ({products}) => {
                                 handleAddToCart(product)
                             }}
                             >
-                            <i className="ri-shopping-cart-2-line bg-primary p-1.5 text-white hover:bg-primary-dark"></i>
+                            <i className="ri-shopping-cart-2-line bg-primary2 p-1.5 text-white hover:bg-primary-dark"></i>
                             </button>
                         </div>
                     </div>

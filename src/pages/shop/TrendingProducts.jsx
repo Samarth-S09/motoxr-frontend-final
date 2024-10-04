@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import ProductCards from './ProductCards'
 
@@ -11,9 +12,9 @@ const TrendingProducts = () => {
     }
     return (
         <section className='section__container product__container'>
-            <h2 className='section__header'>Trending Products</h2>
+            <h2 className='section__header'>Hot Picks for Riders</h2>
             <p className='section__subheader mb-12'>
-                Discover the Hottest Picks: Elevate Your Style with Our Curated Collection of Trending Women's Fashion Products.
+                Discover the latest in motorcycle helmets, jackets, and accessories trending in the biking world. Whether you need enhanced protection or want to upgrade your style, our handpicked selection is here to gear you up. Do not miss out on the top-selling products of the season, designed for performance and durability!
             </p>
 
             {/* products card */}

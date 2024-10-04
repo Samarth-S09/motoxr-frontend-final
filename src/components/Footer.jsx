@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 import instaImg1 from "../assets/instagram-1.jpg"
@@ -15,15 +16,15 @@ const Footer = () => {
                     <h4>CONTACT INFO</h4>
                     <p>
                         <span><i className="ri-map-pin-2-fill"></i></span>
-                        123, London Bridge Street, London
+                        123, Old Mumbai Street, India
                     </p>
                     <p>
                         <span><i className="ri-mail-fill"></i></span>
-                        support@lebaba.com
+                        support@motoxr.com
                     </p>
                     <p>
                         <span><i className="ri-phone-fill"></i></span>
-                        (+012) 3456 789
+                        (+91) 12345 67890
                     </p>
                 </div>
 
@@ -38,11 +39,11 @@ const Footer = () => {
 
                 <div className='footer__col'>
                     <h4>USEFUL LINK</h4>
-                    <a href="/">Help</a>
+                    <a href="/">Cart</a>
                     <a href="/">Track your order</a>
-                    <a href="/">Men</a>
-                    <a href="/">Women</a>
-                    <a href="/">Dresses</a>
+                    <a href="/">Shop Helmets</a>
+                    <a href="/">Shop Jackets</a>
+                    <a href="/">Contact Us</a>
                 </div>
                 <div className='footer__col'>
                     <h4>INSTAGRAM</h4>
@@ -58,7 +59,7 @@ const Footer = () => {
             </footer>
 
             <div className='footer__bar'>
-                Copyright © 2025 by Lebaba. All rights reserved.
+                Copyright © 2024 by MotoXR. All rights reserved.
             </div>
         </>
     )

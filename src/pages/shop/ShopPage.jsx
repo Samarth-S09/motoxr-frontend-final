@@ -6,7 +6,7 @@ import ShopFiltering from './ShopFiltering';
 import { useFetchAllProductsQuery } from '../../redux/features/products/productsApi';
 
 const filters = {
-    categories: ['all', 'accessories', 'dress', 'jewellery', 'cosmetics'],
+    categories: ['all', 'helmets', 'jackets', 'gloves', 'accessories'],
     colors: ['all', 'black', 'red', 'gold', 'blue', 'silver', 'beige', 'green'],
     priceRanges: [
         { label: 'Under $50', min: 0, max: 50 },
@@ -65,7 +65,7 @@ const ShopPage = () => {
         <>
             <section className='section__container bg-primary-light'>
                 <h2 className='section__header capitalize'>Shop Page</h2>
-                <p className='section__subheader'>Discover the Hottest Picks: Elevate Your Style with Our Curated Collection of Trending Women's Fashion Products.</p>
+                <p className='section__subheader'>Browse our extensive collection of high-quality motorcycle gear designed for both safety and style. From helmets and jackets to gloves and accessories, our curated selection caters to every riders needs. Whether you are hitting the open road or tackling challenging terrains, find the perfect gear to enhance your riding experience. Shop now and elevate your ride!</p>
             </section>
 
             <section className='section__container'>

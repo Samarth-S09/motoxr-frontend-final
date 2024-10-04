@@ -37,7 +37,7 @@ const Login = () => {
     return (
         <section className='h-screen flex items-center justify-center'>
             <div className='max-w-sm border shadow bg-white mx-auto p-8'>
-                <h2 className='text-2xl font-semibold pt-5'>Please Login</h2>
+                <h2 className='text-2xl font-semibold pt-5'>Login</h2>
                 <form onSubmit={handleLogin} className='space-y-5 max-w-sm mx-auto pt-8'>
                     <input type="email" name="email" id="email"
                         onChange={(e) => setEmail(e.target.value)}
@@ -54,12 +54,12 @@ const Login = () => {
                     }
 
                     <button type='submit'
-                        className='w-full mt-5 bg-primary text-white hover:bg-indigo-500 font-medium py-3 rounded-md'
+                        className='w-full mt-5 bg-primary text-white hover:bg-primary2 font-medium py-3 rounded-md'
                     >Login</button>
                 </form>
 
-                <p className='my-5 italic text-sm text-center'>Don't have an account?
-                    <Link to="/register" className='text-red-700 px-1 underline'>Register</Link> here.</p>
+                <p className='my-5 italic text-sm text-center'>Do not have an account?
+                    <Link to="/register" className='text-green-400 px-1 underline'>Register</Link> here.</p>
             </div>
         </section>
     )

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { useLogoutUserMutation } from '../../redux/features/auth/authApi';
 import { useDispatch } from 'react-redux';

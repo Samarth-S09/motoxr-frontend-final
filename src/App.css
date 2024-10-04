@@ -1,17 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 :root {
-  --primary-color: #ed3849;
-  --primary-color-dark: #d23141;
-  --primary-color-light: #f4e5ec;
-  --text-dark: #0f172a;
-  --text-light: #64748b;
+  --primary-color: #42ed18;
+  --primary-color2: #2e9e12;
+  --primary-color-dark: #1f600f;
+  --primary-color-light: #daf4ce;
+  --text-dark: #0a0a0a;
+  --text-light: #506e52;
   --extra-light: #f8fafc;
+  --grey-color: #aaaaaa;
   --white: #ffffff;
   --max-width-1400: 1400px;
   --max-width-1200: 1200px;
   --max-width-900: 900px;
-  --header-font: "Playfair Display", serif;
+  --header-font: "Titillium Web", system-ui;
 }
 
 * {
@@ -29,7 +30,7 @@
 .section__header {
   margin-bottom: 1rem;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 400;
   font-family: var(--header-font);
   color: var(--text-dark);
   text-align: center;
@@ -48,7 +49,7 @@
   border: none;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--primary-color2);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -68,7 +69,7 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 nav {
@@ -94,19 +95,21 @@ nav {
 }
 
 .link a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color2);
 }
 
-.nav__logo a {
-  font-size: 2rem;
+.nav__logo {
+  width: 180px;
+  height: auto;
+  /* font-size: 2rem;
   font-weight: 800;
   font-family: var(--header-font);
-  color: var(--text-dark);
+  color: var(--text-dark); */
 }
 
-.nav__logo a span {
+/* .nav__logo a span {
   color: var(--primary-color);
-}
+} */
 
 .nav__icons {
   flex: 1;
@@ -122,7 +125,7 @@ nav {
 }
 
 .nav__icons span a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color2);
 }
 
 .header__container {
@@ -186,11 +189,11 @@ nav {
 }
 
 .categories__card img {
-  max-width: 100px;
+  max-width: 350px;
   margin: auto;
   margin-bottom: 1rem;
   border: 5px solid var(--white);
-  border-radius: 100%;
+  border-radius: 10%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -227,14 +230,14 @@ nav {
 
 .hero__content h4 {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: 700;
   font-family: var(--header-font);
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .hero__content a {
-  color: var(--text-dark);
+  color: var(--white);
   text-decoration: underline;
 }
 
@@ -313,8 +316,8 @@ nav {
 .deals__content h5 {
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-weight: 500;
-  color: var(--primary-color);
+  font-weight: 600;
+  color: var(--primary-color2);
 }
 
 .deals__content h4 {

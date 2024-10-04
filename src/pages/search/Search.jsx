@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 
 import productsData from "../../data/products.json"
@@ -17,8 +18,8 @@ const Search = () => {
     return (
         <>
             <section className='section__container bg-primary-light'>
-                <h2 className='section__header capitalize'>Search Products</h2>
-                <p className='section__subheader'>Browse a diverse range of categories, from chic dresses to versatile accessories. Elevate your style today!</p>
+                <h2 className='section__header capitalize'>Find Your Perfect Gear</h2>
+                <p className='section__subheader'>Looking for something specific? Use our smart search to explore a wide range of helmets, jackets, gloves, and more. Filter by size, brand, or price to find the perfect match for your ride.</p>
             </section>
 
             <section className='section__container'>
@@ -31,7 +32,7 @@ const Search = () => {
 
                     <button 
                     onClick={handleSearch}
-                    className='search-button w-full md:w-auto py-2 px-8 bg-primary text-white rounded'>Search</button>
+                    className='search-button w-full md:w-auto py-2 px-8 bg-primary2 text-white rounded'>Search</button>
                 </div>
 
                 <ProductCards products={filteredProducts}/>

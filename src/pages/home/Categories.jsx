@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 import category1 from "../../assets/category-1.jpg"
@@ -8,10 +9,10 @@ import { Link } from 'react-router-dom'
 
 const Categories = () => {
     const categories = [
-        {name: 'Accessories', path: 'accessories', image: category1},
-        {name: 'Dress Collection', path: 'dress', image: category2},
-        {name: 'Jewellery', path: 'jewellery', image: category3},
-        {name: 'Cosmetics', path: 'cosmetics', image: category4},
+        {name: 'Helmets', path: 'Helmets', image: category1},
+        {name: 'Jackets', path: 'Jackets', image: category2},
+        {name: 'Gloves', path: 'Gloves', image: category3},
+        {name: 'Accessories', path: 'Accessories', image: category4},
     ]
   return (
     <>

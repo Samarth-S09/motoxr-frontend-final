@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 import blogsData from "../../data/blogs.json"
@@ -6,8 +7,8 @@ const Blogs = () => {
     // console.log(blogsData)
   return (
     <section className='section__container blog__container'>
-        <h2 className='section__header'>Latest From Blog</h2>
-        <p className='section__subheader'> Elevate your wardrobe with our freshest style tips, trends, and inspiration on our blog.</p>
+        <h2 className='section__header'>Ride Smarter with MotoXR Insights</h2>
+        <p className='section__subheader'>Stay up to date with the latest trends, tips, and advice for motorcycle enthusiasts. Our blog covers everything from gear reviews to safety tips, riding techniques, and much more.</p>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12'>
             {
                 blogsData.map((blog, index) => (
